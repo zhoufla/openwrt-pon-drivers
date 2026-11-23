@@ -137,6 +137,8 @@
 #define AIROHA_XGPON_BWM_O2349_NO_PLOAMU_ONLY_GRANT BIT(15)
 #define AIROHA_XGPON_BWM_O49_NO_DEFAULT_TCONT_GRANT BIT(16)
 #define AIROHA_XGPON_BWM_O2349_CONTINUOUS_GRANT     BIT(17)
+/* Stock AN7583 BWmap check baseline: optional grant filters disabled. */
+#define AIROHA_XGPON_BWM_CHK_CTRL_STOCK 0x00820000
 
 /*
  * Bits 3 and 4 select hardware generation and verification of OMCI MIC with
